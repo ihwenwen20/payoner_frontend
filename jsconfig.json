@@ -1,0 +1,41 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@app/*": [
+				"src/apps/*"
+			],
+			"@components/*": [
+				"src/apps/components/*"
+			],
+			"@views/*": [
+				"src/apps/views/*"
+			],
+			"@configs/*": [
+				"src/configs/*"
+			],
+			"@layouts/*": [
+				"src/layouts/*"
+			],
+			"@mycomponents/*": [
+				"src/components/*"
+			],
+			"@slices/*": [
+				"src/slices/*"
+			],
+			"@store/*": [
+				"src/store/*"
+			],
+			"@utils/*": [
+				"src/utils/*"
+			],
+			"@zustand/*": [
+				"src/zustand/*"
+			],
+
+		}
+	},
+	"include": [
+		"src"
+	]
+}
